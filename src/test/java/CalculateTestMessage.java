@@ -4,7 +4,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class calculateTestMessage {
+public class CalculateTestMessage {
     @Test
     public void categoryMessageIsStarvationTest() {
         //Open Chrome browser
