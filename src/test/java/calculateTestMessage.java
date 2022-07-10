@@ -4,9 +4,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class calculatetest {
+public class calculateTestMessage {
     @Test
-    public void Starvation() {
+    public void categoryMessageIsStarvationTest() {
         //Open Chrome browser
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
@@ -30,7 +30,7 @@ public class calculatetest {
     }
 
     @Test
-    public void Underweight() {
+    public void categoryMessageIsUnderweightTest() {
         //Open Chrome browser
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
@@ -54,7 +54,7 @@ public class calculatetest {
     }
 
     @Test
-    public void Normal() {
+    public void categoryMessageIsNormalTest() {
         //Open Chrome browser
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
@@ -78,7 +78,7 @@ public class calculatetest {
     }
 
     @Test
-    public void Overweight() {
+    public void categoryMessageIsOverweightTest() {
         //Open Chrome browser
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
@@ -102,7 +102,7 @@ public class calculatetest {
     }
 
     @Test
-    public void Obese() {
+    public void categoryMessageIsObeseTest() {
         //Open Chrome browser
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
