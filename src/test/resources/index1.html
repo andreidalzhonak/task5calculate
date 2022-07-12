@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title adventure</title>
+    <style>
+        h1 {
+            color: darkgreen;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .pstyle {
+            color: cadetblue;
+            font-size: 50px;
+            text-align: center;
+        }
+
+        .spanstyle {
+            color: darkslateblue;
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+    <link href="css.css" rel="stylesheet">
+</head>
+<body>
+<div id="div_1" name="header_trips" class="divstyle">This is my page about my trips</div>
+<p id="p_2" name="greeting" class="pstyle">Welcome, traveller!</p>
+<h1 id="h1" name="my_name">My name is Andrei</h1>
+<div align="center">
+    <span id="span_1" name="invitation" class="spanstyle"> Please, see the table with my travel plans</span>
+</div>
+<br>
+<div id=div_2 name="table" class="divstyle2">
+    <table border="1" align="center">
+        <tr>
+            <td>Country</td>
+            <td>City</td>
+        </tr>
+        <tr>
+            <td>Russia</td>
+            <td>Moscow</td>
+        </tr>
+        <tr>
+            <td>United Kingdom</td>
+            <td>London</td>
+        </tr>
+        <tr>
+            <td>France</td>
+            <td>Paris</td>
+        </tr>
+    </table>
+</div>
+<br>
+<div id="div_3" name="music_band" class="divstyle2">
+    <label>I like these bands:</label>
+    <select name="Band">
+        <option>Queen</option>
+        <option>Nirvana</option>
+        <option>Linkin Park</option>
+    </select>
+</div>
+<br>
+<div id="div_4" name="select_righthand" class="divstyle2">Right-handed
+    <br>
+    <input type="checkbox">
+</div>
+<div id="div_5" name="select_lefthand" class="divstyle2">Left-handed
+    <br>
+    <input type="checkbox">
+</div>
+<br>
+<div id="div_6" name="link" class="divstyle2">
+    <a href="https://www.w3schools.com/tags/tag_a.asp">W3Schools</a>
+</div>
+<br>
+<div id="div_7" name="click_me" class="divstyle2">
+    <input id="elem" type="button" value="Click me">
+    <br>
+    <br>
+    <script>
+        elem.onclick = function () {
+            alert('Спасибо');
+        };
+    </script>
+</div>
+
+<div id="div_8" name="page" class="divstyle2">
+    <img id="img_1" src="page.jpg" alt="oops, you found it">
+</div>
+</body>
+</html>
