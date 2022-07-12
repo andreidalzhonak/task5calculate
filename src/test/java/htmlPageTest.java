@@ -6,11 +6,11 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
-public class HtmlPageTest {
+public class htmlPageTest {
     private final String PATH = "C:\\Users\\anduser\\IdeaProjects\\task5calculate\\src\\test\\resources\\index1.html";
 
     @Test
-    public void TitleExistsTest() {
+    public void titleExistsTest() {
         //Open Chrome browser
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
@@ -26,7 +26,7 @@ public class HtmlPageTest {
     }
 
     @Test
-    public void TableExistsTest() {
+    public void tableExistsTest() {
         //Open Chrome browser
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
@@ -42,7 +42,7 @@ public class HtmlPageTest {
     }
 
     @Test
-    public void LinkExistsTest() {
+    public void linkExistsTest() {
         //Open Chrome browser
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
@@ -58,7 +58,7 @@ public class HtmlPageTest {
     }
 
     @Test
-    public void MyNameExistsTest() {
+    public void myNameExistsTest() {
         //Open Chrome browser
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
@@ -74,11 +74,10 @@ public class HtmlPageTest {
 
         System.out.println(nameText.contains("Andrei"));
         driver.quit();
-
     }
 
     @Test
-    public void ClickLinkTest() {
+    public void clickLinkTest() {
         //Open Chrome browser
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
@@ -112,7 +111,8 @@ public class HtmlPageTest {
 
         //Add check
 
-        System.out.println(namePage.contains("oops, you found it"));
+        namePage.contains("alt");
         driver.quit();
+        Assert.assertEquals(namePage, "oops, you found it");
     }
 }
