@@ -6,7 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
-public class TestHtmlPageTest {
+public class HtmlPageTest {
     private final String PATH = "C:\\Users\\anduser\\IdeaProjects\\task5calculate\\src\\test\\resources\\index1.html";
 
     @Test
